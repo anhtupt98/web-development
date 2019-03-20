@@ -1,0 +1,64 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.menu *{margin:0; padding: 0}
+.menu 
+{
+	background-color:RGB(146,208,80);	
+	height:30px;
+	width:100%;	
+}
+.menu ul
+{
+	float:left;
+	list-style:none;
+}
+.menu ul li
+{	
+	position:relative;
+	float:left;
+	border-right:#0033FF 1px solid;	
+}
+.menu li a 
+{
+	display: block;
+	color: #292929;
+	font-size:16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 6px;
+}
+ 
+.menu li a:hover 
+{
+	color:#000000;
+	background-color:#FFCC66;
+}
+ 
+.menu li ul
+{
+	position: absolute;
+	background-color:#FFFFCC;
+	width: 200px;
+	display: none;
+}
+
+.menu li:hover ul
+{
+	display: block;
+}
+ 
+.menu ul li ul li 
+{	
+	border-bottom:	#1b5800 1px solid;
+	border-right:	#1b5800 1px solid;	
+	border-left:	#1b5800 1px solid;
+	width: 100%;
+}
+
+.menu ul li ul li:first-child
+{
+	border-top:	#1b5800 1px solid;
+}
